@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1"
+    tools:actionBarNavMode="tabs">
+    <TextView
+        p1:text="myClassroom"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView1"
+        p1:background="@android:color/holo_red_light"
+        p1:backgroundTint="#000000ff" />
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent"
+        p1:id="@+id/linearLayout2"
+        p1:background="@android:color/darker_gray">
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="480.75dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout3"
+            p1:background="@android:color/background_light">
+            <TextView
+                p1:text="Manual Authentication"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView2"
+                p1:paddingStart="155"
+                p1:paddingEnd="10"
+                p1:paddingBottom="10"
+                p1:paddingTop="20"
+                p1:background="@drawable/yellowgray"
+                p1:backgroundTint="#000000ff"
+                p1:backgroundTintMode="screen" />
+            <EditText
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/editText1"
+                p1:text="Enter your Username"
+                p1:paddingStart="160"
+                p1:paddingEnd="100"
+                p1:paddingTop="60" />
+            <EditText
+                p1:inputType="textPassword"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/editText2"
+                p1:text="password"
+                p1:paddingStart="195"
+                p1:paddingEnd="30"
+                p1:paddingBottom="10"
+                p1:paddingTop="60" />
+            <Button
+                p1:text="SIGN IN"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button1" />
+            <TextView
+                p1:text="Request a demo"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView4"
+                p1:textColor="@android:color/holo_blue_dark"
+                p1:textAlignment="center"
+                p1:paddingStart="175"
+                p1:paddingEnd="30"
+                p1:paddingTop="40" />
+            <TextView
+                p1:text="Learn more"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView5"
+                p1:textColor="@android:color/holo_blue_dark"
+                p1:paddingStart="195"
+                p1:paddingTop="20" />
+            <TextView
+                p1:text="Forgot Password?"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView6"
+                p1:textColor="@android:color/holo_blue_dark"
+                p1:paddingStart="172"
+                p1:paddingTop="20" />
+            <TextView
+                p1:text="Error Message display Panel"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView7"
+                p1:textColor="@android:color/holo_red_dark"
+                p1:paddingStart="120"
+                p1:layout_marginEnd="20"
+                p1:layout_marginStart="0"
+                p1:paddingTop="100" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="480.75dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout4"
+            p1:background="@android:color/background_light">
+            <TextView
+                p1:text="Face Recognition Authentication"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView3"
+                p1:paddingStart="100"
+                p1:paddingTop="20"
+                p1:paddingBottom="10"
+                p1:paddingEnd="10"
+                p1:backgroundTint="#000000ff"
+                p1:background="@drawable/yellowgray"
+                p1:backgroundTintMode="add" />
+            <ImageView
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/imageView1"
+                p1:background="@drawable/12"
+                p1:layout_marginBottom="364.5dp"
+                p1:baselineAlignBottom="true"
+                p1:backgroundTintMode="src_in"
+                p1:clickable="true" />
+            <ImageView
+                p1:src="@android:drawable/ic_menu_gallery"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/imageView2"
+                p1:stateListAnimator="@drawable/12"
+                p1:background="@drawable/12" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

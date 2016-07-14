@@ -1,14 +1,10 @@
-﻿using System;
-using Android.App;
-using Android.Content;
-using Android.Runtime;
-using Android.Views;
+﻿using Android.App;
 using Android.Widget;
 using Android.OS;
 
 namespace MyClassRoom
 {
-    [Activity(Label = "MyClassRoom", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "MyClassRoom", MainLauncher = true, Icon = "@drawable/icon"), ]
     public class MainActivity : Activity
     {
         int count = 1;
