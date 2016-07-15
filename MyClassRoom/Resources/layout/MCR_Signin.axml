@@ -126,22 +126,19 @@
                 p1:backgroundTint="#000000ff"
                 p1:background="@drawable/yellowgray"
                 p1:backgroundTintMode="add" />
-            <ImageView
-                p1:layout_width="match_parent"
+            <Button
+                p1:id="@+id/btnCameralogin"
+                p1:layout_width="fill_parent"
                 p1:layout_height="wrap_content"
-                p1:id="@+id/imageView1"
-                p1:background="@drawable/12"
-                p1:layout_marginBottom="364.5dp"
-                p1:baselineAlignBottom="true"
-                p1:backgroundTintMode="src_in"
-                p1:clickable="true" />
+                p1:text="@string/openCamera" />
             <ImageView
                 p1:src="@android:drawable/ic_menu_gallery"
-                p1:layout_width="match_parent"
-                p1:layout_height="wrap_content"
-                p1:id="@+id/imageView2"
-                p1:stateListAnimator="@drawable/12"
-                p1:background="@drawable/12" />
+                p1:layout_width="fill_parent"
+                p1:layout_height="329.0dp"
+                p1:id="@+id/imageViewAuth"
+                p1:adjustViewBounds="true"
+                p1:layout_marginRight="0.0dp"
+                p1:layout_marginBottom="75.0dp" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

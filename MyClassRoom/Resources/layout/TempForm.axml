@@ -127,6 +127,11 @@
                     layout_below="@+id/idHEADName"
                     text="Sample Name" />
             </RelativeLayout>
+            <android.support.design.widget.FloatingActionButton
+                src="@drawable/ic_done"
+                fabSize="normal"
+                layout_width="wrap_content"
+                layout_height="wrap_content" />
         </android.support.v7.widget.CardView>
     </LinearLayout>
 </LinearLayout>
