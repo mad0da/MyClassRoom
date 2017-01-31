@@ -1,9 +1,10 @@
 ﻿using System;
 using Xamarin.Forms;
 
-namespace MasterDetailPageNavigation
+namespace MyClassRoom
+
 {
-	public partial class MainPage : MasterDetailPage
+    public partial class MainPage : MCR_MasterDetailPage
 	{
 		public MainPage ()
 		{

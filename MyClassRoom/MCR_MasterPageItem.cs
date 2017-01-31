@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace MasterDetailPageNavigation
+namespace myClassromm
 {
-	public class MasterPageItem
+	public class MCR_MasterPageItem
 	{
 		public string Title { get; set; }
 

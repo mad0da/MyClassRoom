@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+<MCR_MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
 				  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-				  xmlns:local="clr-namespace:MasterDetailPageNavigation;assembly=MasterDetailPageNavigation"
-				  x:Class="MasterDetailPageNavigation.MainPage">
-  <MasterDetailPage.Master>
+				  xmlns:local="clr-namespace:myClassroom;assembly=myClassroom"
+				  x:Class="MCR_MasterDetailPageNavigation.MainPage">
+  <MCR_MasterDetailPage.Master>
   	<local:MasterPage x:Name="masterPage" />
-  </MasterDetailPage.Master>
-	<MasterDetailPage.Detail>
+  </MCR_MasterDetailPage.Master>
+  <MCR_MasterDetailPage.Detail>
 		<NavigationPage>
 			<x:Arguments>
 				<local:ContactsPage />
 			</x:Arguments>
 		</NavigationPage>
-	</MasterDetailPage.Detail>
-</MasterDetailPage>
+	</MCR_MasterDetailPage.Detail>
+</MCR_MasterDetailPage>

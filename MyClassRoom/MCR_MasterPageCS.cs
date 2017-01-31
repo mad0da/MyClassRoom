@@ -1,15 +1,15 @@
 ﻿using System.Collections.Generic;
 using Xamarin.Forms;
 
-namespace MasterDetailPageNavigation
+namespace myClassroom
 {
-	public class MasterPageCS : ContentPage
+	public class MCR_MasterPageCS : ContentPage
 	{
 		public ListView ListView { get { return listView; } }
 
 		ListView listView;
 
-		public MasterPageCS ()
+		public MCR_MasterPageCS()
 		{
 			var masterPageItems = new List<MasterPageItem> ();
 			masterPageItems.Add (new MasterPageItem {

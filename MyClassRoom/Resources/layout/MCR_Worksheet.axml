@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1"
+    p1:background="@android:color/background_light">
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="453.5dp"
+        p1:id="@+id/linearLayout4"
+        p1:background="@android:color/background_light">
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:layout_width="245.0dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout5"
+            p1:background="@android:color/background_light"
+            p1:dividerPadding="@android:dimen/dialog_min_width_minor"
+            p1:layout_marginRight="4.5dp">
+            <TextView
+                p1:text="myClassroom"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="267.5dp"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView2"
+                p1:background="@drawable/yellowgray"
+                p1:layout_marginRight="6.0dp" />
+            <Button
+                p1:text="Profile Management"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button1"
+                p1:textAllCaps="false" />
+            <Button
+                p1:text="Year Planner"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button2"
+                p1:textAllCaps="false" />
+            <Button
+                p1:text="Settings"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button3"
+                p1:textAllCaps="false" />
+            <Button
+                p1:text="Support"
+                p1:layout_width="match_parent"
+                p1:layout_height="84.5dp"
+                p1:id="@+id/button4"
+                p1:textAllCaps="false"
+                p1:layout_marginBottom="31.0dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:layout_width="363.5dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout6"
+            p1:background="@android:color/background_light">
+            <TextView
+                p1:text="Activity Selection"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="364.5dp"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView3"
+                p1:background="@drawable/yellowgray"
+                p1:layout_marginLeft="5.5dp" />
+            <Button
+                p1:text="Worksheet"
+                p1:layout_width="match_parent"
+                p1:layout_height="152.5dp"
+                p1:id="@+id/button5"
+                p1:layout_marginBottom="95.5dp" />
+            <Button
+                p1:text="Video Tutorials"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button6" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout7"
+            p1:background="@android:color/background_light"
+            p1:layout_marginBottom="0.0dp">
+            <TextView
+                p1:text="Study Guides"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView4"
+                p1:background="@drawable/yellowgray"
+                p1:layout_marginRight="0.0dp"
+                p1:layout_marginLeft="0.0dp" />
+            <LinearLayout
+                p1:orientation="vertical"
+                p1:minWidth="25px"
+                p1:minHeight="25px"
+                p1:layout_width="match_parent"
+                p1:layout_height="120.0dp"
+                p1:id="@+id/linearLayout8"
+                p1:background="@android:color/background_light">
+                <ImageButton
+                    p1:src="@drawable/32"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="126.0dp"
+                    p1:id="@+id/imageButton1"
+                    p1:layout_marginBottom="43.5dp"
+                    p1:tag="No Data" />
+            </LinearLayout>
+            <LinearLayout
+                p1:orientation="vertical"
+                p1:minWidth="25px"
+                p1:minHeight="25px"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/linearLayout9"
+                p1:background="@android:color/holo_blue_bright">
+                <TextView
+                    p1:text="Shared and Private Notes"
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="22.5dp"
+                    p1:id="@+id/textView5"
+                    p1:layout_marginBottom="0.0dp"
+                    p1:background="@drawable/yellowgray" />
+            </LinearLayout>
+            <ImageButton
+                p1:src="@android:drawable/ic_menu_gallery"
+                p1:layout_width="match_parent"
+                p1:layout_height="104.5dp"
+                p1:id="@+id/imageButton2" />
+            <TextView
+                p1:text="Recommended Books"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="22.5dp"
+                p1:id="@+id/textView5"
+                p1:layout_marginBottom="0.0dp"
+                p1:background="@drawable/yellowgray" />
+            <ImageButton
+                p1:src="@android:drawable/ic_menu_gallery"
+                p1:layout_width="match_parent"
+                p1:layout_height="104.5dp"
+                p1:id="@+id/imageButton2" />
+            <TextView
+                p1:text="Suggested Books"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="22.5dp"
+                p1:id="@+id/textView5"
+                p1:layout_marginBottom="0.0dp"
+                p1:background="@drawable/yellowgray" />
+            <ImageButton
+                p1:src="@android:drawable/ic_menu_gallery"
+                p1:layout_width="match_parent"
+                p1:layout_height="123.5dp"
+                p1:id="@+id/imageButton2"
+                p1:background="@android:color/darker_gray" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

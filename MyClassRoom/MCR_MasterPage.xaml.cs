@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Xamarin.Forms;
 
-namespace MasterDetailPageNavigation
+namespace myClassroom
 {
 	public partial class MasterPage : ContentPage
 	{
@@ -13,22 +13,29 @@ namespace MasterDetailPageNavigation
 
 			var masterPageItems = new List<MasterPageItem> ();
 			masterPageItems.Add (new MasterPageItem {
-				Title = "Contacts",
-				IconSource = "contacts.png",
+				Title = "myProfile",
+				IconSource = "Education icons by Dreamstale (58).png",
 				TargetType = typeof(ContactsPage)
 			});
 			masterPageItems.Add (new MasterPageItem {
-				Title = "TodoList",
-				IconSource = "todo.png",
+				Title = "myPlanner",
+				IconSource = "Education icons by Dreamstale (33)",
 				TargetType = typeof(TodoListPage)
 			});
 			masterPageItems.Add (new MasterPageItem {
-				Title = "Reminders",
-				IconSource = "reminders.png",
+				Title = "mySettings",
+				IconSource = "Education icons by Dreamstale (22).png",
 				TargetType = typeof(ReminderPage)
 			});
+            masterPageItems.Add(new MasterPageItem
+            {
+                Title = "mySupport",
+                IconSource = "Education icons by Dreamstale (59).png",
+                TargetType = typeof(ReminderPage)
+            });
 
-			listView.ItemsSource = masterPageItems;
+
+            listView.ItemsSource = masterPageItems;
 		}
 	}
 }

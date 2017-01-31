@@ -18,7 +18,6 @@
         p1:orientation="horizontal"
         p1:layout_width="match_parent"
         p1:layout_height="match_parent"
-        p1:id="@+id/linearLayout2"
         p1:background="@android:color/darker_gray">
         <LinearLayout
             p1:orientation="vertical"
@@ -74,7 +73,8 @@
                 p1:textAlignment="center"
                 p1:paddingStart="175"
                 p1:paddingEnd="30"
-                p1:paddingTop="40" />
+                p1:paddingTop="40"
+                p1:layout_marginBottom="0.0dp" />
             <TextView
                 p1:text="Learn more"
                 p1:textAppearance="?android:attr/textAppearanceMedium"
@@ -92,7 +92,18 @@
                 p1:id="@+id/textView6"
                 p1:textColor="@android:color/holo_blue_dark"
                 p1:paddingStart="172"
-                p1:paddingTop="20" />
+                p1:paddingTop="20"
+                p1:layout_marginBottom="0.0dp" />
+            <TextView
+                p1:text="register?"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/register"
+                p1:textColor="@android:color/holo_blue_dark"
+                p1:paddingStart="172"
+                p1:paddingTop="20"
+                p1:layout_marginBottom="0.0dp" />
             <TextView
                 p1:text="Error Message display Panel"
                 p1:textAppearance="?android:attr/textAppearanceMedium"
@@ -103,7 +114,8 @@
                 p1:paddingStart="120"
                 p1:layout_marginEnd="20"
                 p1:layout_marginStart="0"
-                p1:paddingTop="100" />
+                p1:paddingTop="100"
+                p1:layout_marginBottom="0.0dp" />
         </LinearLayout>
         <LinearLayout
             p1:orientation="vertical"

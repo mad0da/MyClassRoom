@@ -73,7 +73,7 @@
                 p1:layout_height="wrap_content"
                 p1:id="@+id/button5" />
             <Button
-                p1:text="WorkBook"
+                p1:text="Worksheet"
                 p1:layout_width="match_parent"
                 p1:layout_height="wrap_content"
                 p1:id="@+id/button6" />

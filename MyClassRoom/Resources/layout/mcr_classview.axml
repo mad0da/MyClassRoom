@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:actionBarNavMode="list">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="545.0dp"
+        android:id="@+id/linearLayout1"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="230.0dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="73.5dp"
+            android:id="@+id/linearLayout2"
+            android:layout_marginTop="0.0dp"
+            android:layout_marginBottom="48.0dp"
+            android:background="@android:color/holo_blue_bright">
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView1"
+                android:background="@drawable/3"
+                android:layout_marginRight="678.0dp" />
+            <EditText
+                android:layout_width="141.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/editText1"
+                android:layout_marginRight="99.0dp"
+                android:text="search" />
+            <Button
+                android:text="Button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/button2" />
+            <Button
+                android:text="Button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/button1" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="69.0dp"
+            android:id="@+id/linearLayout3"
+            android:background="@android:color/holo_green_dark">
+            <ImageButton
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton1" />
+            <ImageButton
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton2" />
+            <ImageButton
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton3" />
+            <ImageButton
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton4" />
+            <ImageButton
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton5" />
+            <ImageButton
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton6" />
+            <ImageButton
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton7" />
+            <ImageButton
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton8" />
+            <ImageButton
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton9" />
+            <ImageButton
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton10" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="319.0dp"
+            android:id="@+id/linearLayout4"
+            android:layout_marginBottom="178.5dp"
+            android:background="@android:color/holo_orange_light">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="526.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/linearLayout5"
+                android:background="@android:color/holo_purple"
+                android:layout_marginRight="0">
+                <TableLayout
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tableLayout1"
+                    android:background="@android:color/holo_blue_light"
+                    android:clickable="true">
+                    <TableRow
+                        android:id="@+id/tableRow1">
+                    </TableRow>
+                    <TableRow
+                        android:id="@+id/tableRow2">
+                        <TableRow
+                            android:minWidth="25px"
+                            android:minHeight="25px"
+                            android:layout_column="3"
+                            android:id="@+id/tableRow4"
+                            android:background="@android:color/background_light"
+                            android:layout_width="52.0dp"
+                            android:layout_marginRight="25.5dp" />
+                    </TableRow>
+                    <TableRow
+                        android:id="@+id/tableRow3"
+                        android:layout_height="37.5dp">
+                    </TableRow>
+                </TableLayout>
+                <TableRow
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="29.0dp"
+                    android:id="@+id/tableRow5"
+                    android:background="@android:color/holo_red_light"
+                    android:layout_marginBottom="18.5dp">
+                    <TableRow
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:id="@+id/tableRow6" />
+                </TableRow>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="382.5dp"
+                android:layout_height="match_parent"
+                android:id="@+id/linearLayout6"
+                android:background="@android:color/holo_red_light"
+                android:layout_marginRight="0">
+                <WebView
+                    android:layout_width="match_parent"
+                    android:layout_height="116.5dp"
+                    android:id="@+id/webView1"
+                    android:layout_marginBottom="0" />
+                <CalendarView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/calendarView1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout7" />
+</LinearLayout>

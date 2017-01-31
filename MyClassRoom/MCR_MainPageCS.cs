@@ -1,21 +1,23 @@
 ﻿using System;
 using Xamarin.Forms;
 
-namespace MasterDetailPageNavigation
+namespace MyClassRoom
+
 {
-	public class MainPageCS : MasterDetailPage
+	public class MCR_MainPageCS : MCR_MasterDetailPage
 	{
 		MasterPageCS masterPage;
 
-		public MainPageCS ()
+		public MCR_MainPageCS()
 		{
-			masterPage = new MasterPageCS ();
+			masterPage = new MCR_MainPageCS();
 			Master = masterPage;
 			Detail = new NavigationPage (new ContactsPageCS ());
 
 			masterPage.ListView.ItemSelected += OnItemSelected;
 
-			if (Device.OS == TargetPlatform.Windows) {
+			if (Device.OS == TargetPlatform.Windows)
+            {
 				Master.Icon = "swap.png";
 			}
 		}

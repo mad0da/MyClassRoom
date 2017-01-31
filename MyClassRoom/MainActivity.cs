@@ -1,10 +1,11 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using SQLite;
 
 namespace MyClassRoom
 {
-    [Activity(Label = "MyClassRoom", MainLauncher = true, Icon = "@drawable/icon"), ]
+    [Activity(Label = "MyClassRoom", MainLauncher = true, Icon = "@drawable/icon"),]
     public class MainActivity : Activity
     {
         int count = 1;
@@ -120,7 +121,38 @@ namespace MyClassRoom
             //need to code face recognition on the newly taken picture against the one stored in the server and DB 
             //then store the latest picture and remove it from the device and delet the old picture from the server 
         }
-
     }
+
 }
+
+        //Database connectivity
+//        public interface ISQLite
+//        {
+//            SQLiteConnection GetConnection();
+//        }
+
+//        public TodoItemDatabase()
+//        {
+//            database = DependencyService.Get<ISQLite>().GetConnection();
+//            database.CreateTable<TodoItem>();
+//        }
+
+//        public IEnumerable<TodoItem> GetItems()
+//        {
+//            return (from i in database.Table<TodoItem>() select i).ToList();
+//        }
+//        public IEnumerable<TodoItem> GetItemsNotDone()
+//        {
+//            return database.Query<TodoItem>("SELECT * FROM [TodoItem] WHERE [Done] = 0");
+//        }
+//        public TodoItem GetItem(int id)
+//        {
+//            return database.Table<TodoItem>().FirstOrDefault(x => x.ID == id);
+//        }
+//        public int DeleteItem(int id)
+//        {
+//            return database.Delete<TodoItem>(id);
+//        }
+//    }
+//}
 
